@@ -1,5 +1,6 @@
 import { Container_main } from './Styles'
 import VisualDisplay from '../visualDisplay/VisualDisplay'
+import MusicList from '../musicList/MusicList'
 
 const Main = () => {
     return (
@@ -8,7 +9,7 @@ const Main = () => {
                 <VisualDisplay />
             </section>
             <section className='right-main'>
-                bbbbbbbbbbbbbb
+                <MusicList />
             </section>
         </Container_main>
     )
